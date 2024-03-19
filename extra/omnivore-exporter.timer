@@ -1,0 +1,10 @@
+[Unit]
+Description=Omnivore Exporter Timer
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=60min 
+
+[Install]
+WantedBy=timers.target
+

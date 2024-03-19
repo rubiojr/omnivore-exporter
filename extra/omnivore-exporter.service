@@ -1,0 +1,14 @@
+[Unit]
+Description=Omnivore Exporter
+
+[Service]
+# A better alternative could be to use EnvironmentFile, to load creds from a file
+Environment=OMNIVORE_API_TOKEN=<your-api-token>
+# monolith PATH
+Environment=PATH=%h/.cargo/bin
+ExecStart=/path/to/omnivore-exporter export --output-dir %h/Documents/omnivore-exports --use-monolith
+Restart=on-failure
+Type=oneshot
+
+[Install]
+WantedBy=default.target
