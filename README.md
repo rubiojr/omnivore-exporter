@@ -19,7 +19,9 @@ export OMNIVORE_API_KEY=your-api-key
 omnivore-export --output-dir ~/Documents/omnivore-exports
 ```
 
-omnivore-exporter can also use [monolith](https://github.com/Y2Z/monolith) to export the articles to a single HTML file, if available in the PATH (recommended, the fidelity of the exports is better). 
+By default, omnivore-exporter uses [obelisk](https://github.com/go-shiori/obelisk) to export the articles to a single HTML file on disk, without additional dependencies.
+
+It can optionally use [monolith](https://github.com/Y2Z/monolith) instead of obelisk, if available in PATH. The the fidelity of the exports with monolith is generally better, in its current version.
 
 ```bash
 omnivore-export --output-dir ~/Documents/omnivore-exports --use-monolith
@@ -36,3 +38,8 @@ You can also use `--skip-labels` to exclude articles with specific labels and ex
 ```bash
 omnivore-export --output-dir ~/Documents/omnivore-exports --skip-labels label-to-skip
 ```
+
+## Credits
+
+- [go-shiori/obelisk](https://github.com/go-shiori/obelisk) - Awesome tool and Go library to export URL contents to disk.
+- [Y2Z/monolith](https://github.com/Y2Z/monolith) - Another awesome tool to export URL contents to disk, that inspired Obelisk.
