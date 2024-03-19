@@ -114,7 +114,7 @@ func main() {
 						Name:     "skip-labels",
 						Usage:    "Export only articles labeled with label.",
 						Required: false,
-						Value:    cli.NewStringSlice("omnivore-exporter-skip", "Newsletter"),
+						Value:    cli.NewStringSlice("omnivore-exporter-skip", "Newsletter", "RSS"),
 					},
 				},
 			},
