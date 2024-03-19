@@ -25,7 +25,7 @@ omnivore-exporter can also use [monolith](https://github.com/Y2Z/monolith) to ex
 omnivore-export --output-dir ~/Documents/omnivore-exports --use-monolith
 ```
 
-By default, all articles except the ones labeled with `Newsletter` or `omnivore-exporter-skip` are exported. Select the labeled articles to export with the `--labels` flag:
+By default, all articles except the ones labeled with `RSS`, `Newsletter` or `omnivore-exporter-skip` are exported. Select the labeled articles to export with the `--labels` flag:
 
 ```bash
 omnivore-export --output-dir ~/Documents/omnivore-exports --labels label-to-export --labels another-label
