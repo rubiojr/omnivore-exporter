@@ -41,7 +41,7 @@ omnivore-export --output-dir ~/Documents/omnivore-exports --skip-labels label-to
 
 ## User service
 
-You can use the [omnivore-exporter.service](/extra/omnivore-exporter.service) and [omnivore-exporter.timer](omnivore-exporter.timer) to run the exporter as a user service. Copy the files to `~/.config/systemd/user/` and enable it with:
+You can use the [omnivore-exporter.service](/extra/omnivore-exporter.service) and [omnivore-exporter.timer](/extra/omnivore-exporter.timer) to run the exporter as a user service. Copy the files to `~/.config/systemd/user/` and enable it with:
 
 ```bash
 systemctl --user enable --now omnivore-export.timer
