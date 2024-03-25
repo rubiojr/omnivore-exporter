@@ -17,6 +17,8 @@ github.com/go-shiori/obelisk v0.0.0-20240204091502-9ae25792f5a8 h1:xCjr17+BOd4BQ
 github.com/go-shiori/obelisk v0.0.0-20240204091502-9ae25792f5a8/go.mod h1:El8JpYM20ZCmLvDP8Ia/iFvO8YWwnxqlIyGwn1aOffM=
 github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f h1:3BSP1Tbs2djlpprl7wCLuiqMaUh5SJkkzI2gDs+FgLs=
 github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f/go.mod h1:Pcatq5tYkCW2Q6yrR2VRHlbHpZ/R4/7qyL1TCF7vl14=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/juliangruber/go-intersect/v2 v2.0.1 h1:8AkWD48LORtf6+CK34FIb2RiNt8V/APuE6vWKUCdtIs=
 github.com/juliangruber/go-intersect/v2 v2.0.1/go.mod h1:YNP8FtduL6qJBfzikyhLdCfzvFTL05HGBNYJ/wN93uA=
 github.com/kennygrant/sanitize v1.2.4 h1:gN25/otpP5vAsO2djbMhF/LQX6R7+O1TB4yv8NzpJ3o=
@@ -36,6 +38,10 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rubiojr/omnivore-go v0.1.0 h1:z5i31hZot8TjcgscKgHWEPsoZTa0li4VzHA1dauGpeA=
 github.com/rubiojr/omnivore-go v0.1.0/go.mod h1:Oz8jnmdgeEitS2xF124NAWc9wkTPxYD2pM8leAf1fU0=
+github.com/rubiojr/omnivore-go v0.2.0 h1:PG6oBDV/2wkMNtqIX/xDBwuOyot8Foc5WZKhYh2T/do=
+github.com/rubiojr/omnivore-go v0.2.0/go.mod h1:1nPGJdx1nsQQ/Y06sFKZVioXZ67YJZu/VGAu3A99TXI=
+github.com/rubiojr/omnivore-go v0.3.0 h1:rhStyfr1mz5MqS7AFhMF9q/9g88JdjEHc/N6RFs6ab8=
+github.com/rubiojr/omnivore-go v0.3.0/go.mod h1:4eJk7KOBRMbs+lI/2Bh4NJ5T80J4m6PIjCQ5ZA5hBSM=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466 h1:17JxqqJY66GmZVHkmAsGEkcIu0oCe3AM420QDgGwZx0=

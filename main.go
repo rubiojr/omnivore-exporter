@@ -174,6 +174,7 @@ func exportAll(c *cli.Context) error {
 	fmt.Println("Exporting to folder", outputDir, "...")
 	client := omnivore.NewClient(omnivore.Opts{Token: token})
 	a, err := client.Search(
+		context.Background(),
 		omnivore.SearchOpts{
 			Query: query,
 		},

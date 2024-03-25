@@ -6,7 +6,7 @@ require (
 	github.com/fatih/color v1.16.0
 	github.com/go-shiori/obelisk v0.0.0-20240204091502-9ae25792f5a8
 	github.com/juliangruber/go-intersect/v2 v2.0.1
-	github.com/rubiojr/omnivore-go v0.1.0
+	github.com/rubiojr/omnivore-go v0.3.0
 	github.com/urfave/cli/v2 v2.27.1
 )
 
@@ -16,6 +16,7 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/go-shiori/dom v0.0.0-20230515143342-73569d674e1c // indirect
 	github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/kennygrant/sanitize v1.2.4 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
