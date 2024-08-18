@@ -5,18 +5,18 @@ Export [omnivore.app](https://omnivore.app) articles to markdown.
 ## Installation
 
 ```bash
-go install github.com/rubiojr/omnivore-export@latest
+go install github.com/rubiojr/omnivore-exporter@latest
 ```
 
 ## Usage
 
 [Get your API key](https://docs.omnivore.app/integrations/api.html#getting-an-api-token) and export it:
 ```bash
-export OMNIVORE_API_KEY=your-api-key
+export OMNIVORE_API_TOKEN=your-api-key
 ```
 
 ```bash
-omnivore-export --output-dir ~/Documents/omnivore-exports
+omnivore-exporter export --output-dir ~/Documents/omnivore-exports
 ```
 
 By default, omnivore-exporter uses [obelisk](https://github.com/go-shiori/obelisk) to export the articles to a single HTML file on disk, without additional dependencies.
@@ -24,19 +24,19 @@ By default, omnivore-exporter uses [obelisk](https://github.com/go-shiori/obelis
 It can optionally use [monolith](https://github.com/Y2Z/monolith) instead of obelisk, if available in PATH. The the fidelity of the exports with monolith is generally better, in its current version.
 
 ```bash
-omnivore-export --output-dir ~/Documents/omnivore-exports --use-monolith
+omnivore-exporter --output-dir ~/Documents/omnivore-exports --use-monolith
 ```
 
 By default, all articles except the ones labeled with `RSS`, `Newsletter` or `omnivore-exporter-skip` are exported. Select the labeled articles to export with the `--labels` flag:
 
 ```bash
-omnivore-export --output-dir ~/Documents/omnivore-exports --labels label-to-export --labels another-label
+omnivore-exporter --output-dir ~/Documents/omnivore-exports --labels label-to-export --labels another-label
 ```
 
 You can also use `--skip-labels` to exclude articles with specific labels and export the rest:
 
 ```bash
-omnivore-export --output-dir ~/Documents/omnivore-exports --skip-labels label-to-skip
+omnivore-exporter --output-dir ~/Documents/omnivore-exports --skip-labels label-to-skip
 ```
 
 ## User service
