@@ -1,5 +1,5 @@
 > [!Warning]
-> Omnivore, the service, is going away [https://omnivore.app/rubiojr/omnivore-is-joining-eleven-labs-192d8e13a31](https://blog.omnivore.app/p/omnivore-is-joining-elevenlabs)
+> Omnivore, the service, [is going away](https://blog.omnivore.app/p/omnivore-is-joining-elevenlabs).
 > This exporter will be be archived soon.
 
 # Omnivore Export
